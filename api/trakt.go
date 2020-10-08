@@ -11,14 +11,14 @@ import (
 	"github.com/anacrolix/missinggo/perf"
 	"github.com/gin-gonic/gin"
 
-	"github.com/elgatito/elementum/cache"
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/database"
-	"github.com/elgatito/elementum/library"
-	"github.com/elgatito/elementum/tmdb"
-	"github.com/elgatito/elementum/trakt"
-	"github.com/elgatito/elementum/util"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masQelec/elementum/cache"
+	"github.com/masQelec/elementum/config"
+	"github.com/masQelec/elementum/database"
+	"github.com/masQelec/elementum/library"
+	"github.com/masQelec/elementum/tmdb"
+	"github.com/masQelec/elementum/trakt"
+	"github.com/masQelec/elementum/util"
+	"github.com/masQelec/elementum/xbmc"
 )
 
 func inMoviesWatchlist(tmdbID int) bool {

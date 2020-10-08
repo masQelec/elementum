@@ -8,8 +8,8 @@ import (
 	"github.com/anacrolix/missinggo/perf"
 	"github.com/gin-gonic/gin"
 
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masQelec/elementum/config"
+	"github.com/masQelec/elementum/xbmc"
 )
 
 const providerPrefix = "plugin://plugin.video.elementum/provider/"

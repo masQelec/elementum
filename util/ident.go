@@ -7,7 +7,7 @@ import (
 
 	"github.com/ElementumOrg/libtorrent-go"
 
-	"github.com/elgatito/elementum/config"
+	"github.com/masQelec/elementum/config"
 )
 
 var (

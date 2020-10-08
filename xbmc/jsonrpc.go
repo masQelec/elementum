@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/elgatito/elementum/jsonrpc"
+	"github.com/masQelec/elementum/jsonrpc"
 )
 
 // Args ...

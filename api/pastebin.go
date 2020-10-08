@@ -10,8 +10,8 @@ import (
 	"os/user"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masQelec/elementum/config"
+	"github.com/masQelec/elementum/xbmc"
 	"github.com/gin-gonic/gin"
 )
 

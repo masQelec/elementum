@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elgatito/elementum/cache"
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/util"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masQelec/elementum/cache"
+	"github.com/masQelec/elementum/config"
+	"github.com/masQelec/elementum/util"
+	"github.com/masQelec/elementum/xbmc"
 	"github.com/jmcvetta/napping"
 	"github.com/op/go-logging"
 )

@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masQelec/elementum/xbmc"
 
 	"github.com/dustin/go-humanize"
 	"github.com/op/go-logging"

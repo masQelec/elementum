@@ -7,9 +7,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/elgatito/elementum/bittorrent"
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/library"
+	"github.com/masQelec/elementum/bittorrent"
+	"github.com/masQelec/elementum/config"
+	"github.com/masQelec/elementum/library"
 )
 
 // ContextPlaySelector ...

@@ -17,9 +17,9 @@ import (
 	"time"
 
 	"github.com/anacrolix/missinggo/perf"
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/proxy"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masQelec/elementum/config"
+	"github.com/masQelec/elementum/proxy"
+	"github.com/masQelec/elementum/xbmc"
 	"github.com/gin-gonic/gin"
 	"github.com/op/go-logging"
 )
@@ -208,7 +208,7 @@ func getAddons(user string, repository string) (*xbmc.AddonList, error) {
 	var addons []xbmc.Addon
 
 	for _, repo := range []string{"plugin.video.elementum", "script.elementum.burst", "context.elementum"} {
-		addonXML, err := getAddonXML("elgatito", repo)
+		addonXML, err := getAddonXML("masQelec", repo)
 		if err != nil {
 			continue
 		}

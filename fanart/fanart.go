@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/elgatito/elementum/cache"
-	"github.com/elgatito/elementum/util"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masQelec/elementum/cache"
+	"github.com/masQelec/elementum/util"
+	"github.com/masQelec/elementum/xbmc"
 	"github.com/jmcvetta/napping"
 	logging "github.com/op/go-logging"
 )

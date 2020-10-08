@@ -10,11 +10,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elgatito/elementum/bittorrent"
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/tmdb"
-	"github.com/elgatito/elementum/util"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masQelec/elementum/bittorrent"
+	"github.com/masQelec/elementum/config"
+	"github.com/masQelec/elementum/tmdb"
+	"github.com/masQelec/elementum/util"
+	"github.com/masQelec/elementum/xbmc"
 	"github.com/gin-gonic/gin"
 	"github.com/op/go-logging"
 )

@@ -29,14 +29,14 @@ import (
 
 	lt "github.com/ElementumOrg/libtorrent-go"
 
-	"github.com/elgatito/elementum/broadcast"
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/database"
-	"github.com/elgatito/elementum/diskusage"
-	"github.com/elgatito/elementum/proxy"
-	"github.com/elgatito/elementum/tmdb"
-	"github.com/elgatito/elementum/util"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masQelec/elementum/broadcast"
+	"github.com/masQelec/elementum/config"
+	"github.com/masQelec/elementum/database"
+	"github.com/masQelec/elementum/diskusage"
+	"github.com/masQelec/elementum/proxy"
+	"github.com/masQelec/elementum/tmdb"
+	"github.com/masQelec/elementum/util"
+	"github.com/masQelec/elementum/xbmc"
 )
 
 // Service ...

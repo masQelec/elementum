@@ -5,12 +5,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/elgatito/elementum/bittorrent"
+	"github.com/masQelec/elementum/bittorrent"
 
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/osdb"
-	"github.com/elgatito/elementum/util"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masQelec/elementum/config"
+	"github.com/masQelec/elementum/osdb"
+	"github.com/masQelec/elementum/util"
+	"github.com/masQelec/elementum/xbmc"
 	"github.com/gin-gonic/gin"
 	"github.com/op/go-logging"
 )

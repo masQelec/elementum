@@ -10,10 +10,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/sanity-io/litter"
 
-	"github.com/elgatito/elementum/bittorrent"
-	"github.com/elgatito/elementum/database"
-	"github.com/elgatito/elementum/util"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masQelec/elementum/bittorrent"
+	"github.com/masQelec/elementum/database"
+	"github.com/masQelec/elementum/util"
+	"github.com/masQelec/elementum/xbmc"
 )
 
 // Download ...

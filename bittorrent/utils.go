@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/util"
+	"github.com/masQelec/elementum/config"
+	"github.com/masQelec/elementum/util"
 )
 
 // URLForHTTP ...

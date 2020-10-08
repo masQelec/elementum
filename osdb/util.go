@@ -12,10 +12,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/proxy"
-	"github.com/elgatito/elementum/tmdb"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masQelec/elementum/config"
+	"github.com/masQelec/elementum/proxy"
+	"github.com/masQelec/elementum/tmdb"
+	"github.com/masQelec/elementum/xbmc"
 	"github.com/scakemyer/quasar/osdb"
 )
 

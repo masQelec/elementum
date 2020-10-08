@@ -23,10 +23,10 @@ import (
 	"github.com/valyala/bytebufferpool"
 	"github.com/zeebo/bencode"
 
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/proxy"
-	"github.com/elgatito/elementum/util"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masQelec/elementum/config"
+	"github.com/masQelec/elementum/proxy"
+	"github.com/masQelec/elementum/util"
+	"github.com/masQelec/elementum/xbmc"
 )
 
 var torrentFileLog = logging.MustGetLogger("torrentFile")

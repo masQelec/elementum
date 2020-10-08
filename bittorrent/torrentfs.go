@@ -12,8 +12,8 @@ import (
 	lt "github.com/ElementumOrg/libtorrent-go"
 	"github.com/anacrolix/missinggo/perf"
 
-	"github.com/elgatito/elementum/database"
-	"github.com/elgatito/elementum/util"
+	"github.com/masQelec/elementum/database"
+	"github.com/masQelec/elementum/util"
 )
 
 const (

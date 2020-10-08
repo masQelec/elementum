@@ -1,8 +1,8 @@
 package providers
 
 import (
-	"github.com/elgatito/elementum/bittorrent"
-	"github.com/elgatito/elementum/tmdb"
+	"github.com/masQelec/elementum/bittorrent"
+	"github.com/masQelec/elementum/tmdb"
 )
 
 // Searcher ...

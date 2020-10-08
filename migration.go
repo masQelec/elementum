@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/elgatito/elementum/repository"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masQelec/elementum/repository"
+	"github.com/masQelec/elementum/xbmc"
 )
 
 func checkRepository() bool {

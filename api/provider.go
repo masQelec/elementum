@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/providers"
-	"github.com/elgatito/elementum/tmdb"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masQelec/elementum/config"
+	"github.com/masQelec/elementum/providers"
+	"github.com/masQelec/elementum/tmdb"
+	"github.com/masQelec/elementum/xbmc"
 	"github.com/gin-gonic/gin"
 )
 
