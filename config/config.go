@@ -786,7 +786,6 @@ func Reload() *Configuration {
 	lock.Lock()
 	config = &newConfig
 	lock.Unlock()
-	go CheckBurst()
 
 	// Replacing passwords with asterisks
 	configOutput := litter.Sdump(config)
@@ -880,37 +879,6 @@ func waitForSettingsClosed() {
 			if !xbmc.AddonSettingsOpened() {
 				return
 			}
-		}
-	}
-}
-
-// CheckBurst ...
-func CheckBurst() {
-	// Check for enabled providers and Elementum Burst
-	for _, addon := range xbmc.GetAddons("xbmc.python.script", "executable", "all", []string{"name", "version", "enabled"}).Addons {
-		if strings.HasPrefix(addon.ID, "script.elementum.") {
-			if addon.Enabled == true {
-				return
-			}
-		}
-	}
-
-	time.Sleep(5 * time.Second)
-	log.Info("Updating Kodi add-on repositories for Burst...")
-	xbmc.UpdateLocalAddons()
-	xbmc.UpdateAddonRepos()
-
-	if !Get().SkipBurstSearch && xbmc.DialogConfirmFocused("Elementum", "LOCALIZE[30271]") {
-		log.Infof("Triggering Kodi to check for script.elementum.burst plugin")
-		xbmc.PlayURL("plugin://script.elementum.burst/")
-		time.Sleep(15 * time.Second)
-
-		log.Infof("Checking for existence of script.elementum.burst plugin now")
-		if xbmc.IsAddonInstalled("script.elementum.burst") {
-			xbmc.SetAddonEnabled("script.elementum.burst", true)
-			xbmc.Notify("Elementum", "LOCALIZE[30272]", AddonIcon())
-		} else {
-			xbmc.Dialog("Elementum", "LOCALIZE[30273]")
 		}
 	}
 }
